@@ -116,7 +116,6 @@ checkoutBtn.addEventListener('click', () => {
 
   let isOpen = checkRestaurantOpen()
   if (!isOpen) {
-
     Toastify({
       text: "Ops, o restaurante esta fechado!!!",
       duration: 3000,
@@ -128,7 +127,6 @@ checkoutBtn.addEventListener('click', () => {
         background: "#ef4445",
       },
     }).showToast();
-
     return
   }
 
