@@ -114,7 +114,7 @@ addressInput.addEventListener('input', (event) => {
 
 checkoutBtn.addEventListener('click', () => {
 
-  let isOpen = checkRestaurantOpen()
+  let isOpen = /* checkRestaurantOpen() */ true 
   if (!isOpen) {
     Toastify({
       text: "Ops, o restaurante esta fechado!!!",
