@@ -144,7 +144,7 @@ checkoutBtn.addEventListener('click', () => {
   }).join(" | ")
 
   const message = encodeURIComponent(cartItems)
-  const phone = "61998134100"
+  const phone = "61999136697"
   window.open(`https://wa.me/${phone}/?text=${message} Endereco: ${addressInput.value}`, "_blank")
 
   cart = []
@@ -153,6 +153,7 @@ checkoutBtn.addEventListener('click', () => {
   setTimeout(() => {
     cartModal.style.display = 'none'
   }, 2000)
+  
 })
 
 // verificar a hora e manipular o carde de horario
